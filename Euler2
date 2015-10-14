@@ -1,0 +1,10 @@
+a=1
+b=2
+sumi=0
+while sumi<4000000:
+    if a%2==0:
+        sumi=sumi+a
+    temp=a
+    a=b
+    b=b+temp
+print(sumi)
